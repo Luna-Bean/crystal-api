@@ -1,0 +1,34 @@
+{
+"crystals": [ 
+    {
+    "Monday": {
+        "stone": "Selenite", 
+        "planet": "Moon"
+    },
+    "Tuesday" : {
+        "stone": "Jasper",
+        "planet": "Mars"
+        },
+
+    "Wednesday": {
+        "stone":"Hematite",
+        "planet":"Mercury"
+    },
+    "Thursday": {
+        "stone":"Aventurine",
+        "planet": "Jupiter"
+            },
+    "Friday": {
+        "stone":"Rhodonite",
+        "planet": "Venus"
+            },
+    "Saturday":{
+        "stone": "Hematite",
+        "planet": "Saturn"
+            },
+    "Sunday": {
+        "stone": "Citrine",
+        "planet": "Sun"
+            }
+        }]
+}
