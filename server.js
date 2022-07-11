@@ -11,9 +11,9 @@ app.get('/', (req, res) => {
 })
 
 
-app.get('/api/:day', (req,res) =>{
-    const dayVariable = req.params.crystals.toLowerCase()
-    if(crystals[days]){
+app.get('/api/:days', (req, res) => {
+    const dayVariable = req.params.days.toLowerCase()
+    if(crystals[dayVariable]){
         res.json(crystals[dayVariable])
     }else{
         res.json('please enter a day of the week!')
@@ -27,32 +27,32 @@ app.get('/api/:day', (req,res) =>{
             "planet": "Moon"
         },
         
-        "Tuesday" : {
+        "tuesday" : {
             "stone": "Jasper",
             "planet": "Mars"
             },
     
-        "Wednesday": {
+        "wednesday": {
             "stone":"Hematite",
             "planet":"Mercury"
         },
 
-        "Thursday": {
+        "thursday": {
             "stone":"Aventurine",
             "planet": "Jupiter"
                 },
 
-        "Friday": {
+        "friday": {
             "stone":"Rhodonite",
             "planet": "Venus"
                 },
 
-        "Saturday":{
+        "saturday":{
             "stone": "Hematite",
             "planet": "Saturn"
                 },
 
-        "Sunday": {
+        "sunday": {
             "stone": "Citrine",
             "planet": "Sun"
                 }
